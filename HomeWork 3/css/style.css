@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+.shell {
+    position: relative;
+    width: 1510px;
+    height: 721.6px;
+    margin: 0 auto;
+}
+
+
+.work__zone {
+    position: absolute;
+    width: 1170px;
+    height: 540px;
+    left: 170px;
+    top: 82px;
+}
+
+
+.tabs {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1170px;
+    height: 40px;
+}
+
+
+.tab__item {
+    width: 203px;
+    height: 40px;
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+}
+
+
+.tabs__content {
+    position: absolute;
+    top: 40px;
+    width: 1170px;
+    height: 501px;
+    border: 1px solid #C6CBCD;
+}
+
+
+.tab__content {
+    display: none;
+}
+
+
+.tab__content:target {
+    display: flex;
+}
+
+
+
+.text {
+    margin-left: 100px;
+    width: 600px;
+}
+
+
+.title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    width: 570px;
+    height: 124px;
+    margin-top: 0%;
+}
+
+
+.main__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    width: 570px;
+    height: 210px;
+    margin-top: 0;
+}
+
+
+.button {
+    width: 270px;
+    height: 58px;
+    background: #EC7979;
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+
+}
+
+
+.download {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+
+a {
+    color: #FFFFFF;
+}
+
+
+#tab_2 {
+    background: yellowgreen;
+    height: 500px;
+}
+
+
+#tab_3 {
+    background: yellow;
+    height: 500px;
+}
