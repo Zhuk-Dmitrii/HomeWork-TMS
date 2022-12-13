@@ -34,6 +34,7 @@ html {
 .background {
     display: block;
     background: url('../imgs/AXIT background/background.svg') center;
+    background-size: cover;
     max-width: 100%;
     height: 1026px;
 }
@@ -912,7 +913,6 @@ label:hover {
 
 @media (max-width: 576px) {
     .content__tab1 {
-        min-width: 288px;
         min-height: 431px;
         justify-content: center;
     }
@@ -1773,6 +1773,10 @@ input[name="r"] {
     .customers__contanier-bottom {
         margin: 32px 0 0 0;
     }
+
+    .customers__text {
+        padding: 0 10px;
+    }
 }
 
 
@@ -1782,6 +1786,7 @@ input[name="r"] {
     width: 100%;
     min-height: 442px;
     background: url('../imgs/STYLISH AXURE DESIGN/background stylish.svg') center;
+    background-size: cover;
 }
 
 .stylish__page-color {
@@ -1869,6 +1874,85 @@ input[name="r"] {
     border-radius: 10px;
     font-size: 18px;
     cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .stylish__page {
+        min-height: 358px;
+    }
+    
+    .stylish__page-color {
+        min-height: 358px;
+    }
+    
+    .stylish__contanier {
+        min-height: 258px;
+    }
+    
+    .stylish__title {
+        max-width: 992px;
+        min-height: 120px;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+    
+    .stylish__separator {
+        max-width: 142px;
+    }
+    
+    .stylish__subtitle {
+        max-width: 992px;
+        min-height: 16px;
+        padding-top: 32px;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+    }
+    
+    .stylish__button {
+        width: 318px;
+        margin: 32px auto;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .stylish__page {
+        min-height: 358px;
+        background: url('../imgs/STYLISH AXURE DESIGN/background mobile.svg') center;
+        background-size: cover;
+    }
+    
+    .stylish__page-color {
+        min-height: 358px;
+        padding: 0 0 0 0;
+    }
+    
+    .stylish__contanier {
+        min-height: 300px;
+    }
+    
+    .stylish__title {
+        font-size: 23px;
+    }
+    
+    .stylish__separator {
+        min-width: 134px;
+    }
+    
+    .stylish__subtitle {
+        min-height: 80px;
+        margin: 0 auto;
+        padding-top: 0px;
+        font-size: 13px;
+    }
+    
+    .stylish__button {
+        width: 268px;
+        min-height: 50px;
+        margin: 50px auto;
+    }
 }
 
 
@@ -2041,6 +2125,96 @@ input[name="r"] {
     cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+    .contact__page {
+        min-height: 662px;
+    }
+    
+    .contact__contanier {
+        min-height: 562px;
+    }
+    
+    .contact__content-top {
+        min-height: 168px;
+    }
+    
+    .contact__title {
+        min-height: 120px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .contact__separator {
+        max-width: 144px;
+    }
+    
+    .contact__subtitle {
+        min-height: 16px;
+        margin-top: 32px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .contact__button {
+        width: 318px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact__page {
+        min-height: 847px;
+        padding: 0px 0;
+    }
+    
+    .contact__contanier {
+        min-height: 807px;
+    }
+    
+    .contact__content-top {
+        min-height: 186px;
+    }
+    
+    .contact__title {
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .contact__separator {
+        max-width: 134px;
+    }
+    
+    .contact__subtitle {
+        min-height: 32px;
+        margin-top: 24px;
+        text-align: center;
+    }
+    
+    .contact__content-bottom {
+        min-height: 567px;
+    }
+    
+    .contact__input-fields {
+        min-width: 100%;
+        height: 214px;
+        flex-wrap: nowrap;
+    }
+    
+    .contact__input-fields input {
+        width: 100%;
+    }
+    
+    .contact__input-fields textarea {
+        width: 100%;
+        min-height: 203px;
+        margin-top: 50px;
+    }
+    
+    .contact__button {
+        max-width: 267px;
+        min-height: 50px;
+    }
+}
 
 
 /*стили подвала всего сайта*/
@@ -2094,4 +2268,42 @@ input[name="r"] {
     align-items: center;
     justify-content: center;
     color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 1200px) {
+    .footer__icons {
+        max-width: 482px;
+    }
+
+    .footer__icons a img {
+        display: block;
+        width: 45px;
+        height: 45px;
+    }
+    
+    .footer__subtitle {
+        min-height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer__icons a img {
+        display: block;
+        width: 36px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer__icons {
+        min-width: 288px;
+    }
+
+    .footer__icons a img {
+        display: block;
+        width: 26px;
+        height: 26px;
+    }
 }
