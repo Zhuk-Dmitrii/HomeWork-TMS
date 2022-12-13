@@ -1704,8 +1704,7 @@ input[name="r"] {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0 auto;
-        margin-top: 23px;
+        margin: 24px auto;
     }
 
     .button__check {
@@ -1722,15 +1721,21 @@ input[name="r"] {
         background-color: #86878B;
     }
 
-    #r1:checked ~ .slide1 {
+    #r1:checked ~ .navigation__customers .check1,
+    #r2:checked ~ .navigation__customers .check2,
+    #r3:checked ~ .navigation__customers .check3 {
+        background-color: #86878B;
+    }
+
+    #r1:checked ~ .customers__content-bottom .slide1 {
         margin-left: 0;
     }
 
-    #r2:checked ~ .slide1 {
+    #r2:checked ~ .customers__content-bottom .slide1 {
         margin-left: -33.3333%;
     }
 
-    #r3:checked ~ .slide1 {
+    #r3:checked ~ .customers__content-bottom .slide1 {
         margin-left: -66.6666%;
     }
 }
